@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tanfolyam>
+	<konferencia>
+		<cim>XML eloadas</cim>
+		<hallgatok>
+			<hallgato>
+				<nev>Teszt Elek</nev>
+				<lakcim>Egyetemvaros</lakcim>
+			</hallgato>
+		</hallgatok>
+		<helyszin>infoepulet</helyszin>
+		<eloado>
+			<nev>Bednarik Laszlo</nev>
+			<adoszam>Ezt meg nem kerdeztem</adoszam>
+			<lakcim>Privat</lakcim>
+		</eloado>
+		<datum>2020.09.15.</datum>
+	</konferencia>
+</tanfolyam>

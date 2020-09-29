@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<orarend>
+	<ora id="" tipus="">
+	</ora>
+	<targy></targy>
+	<idopont>
+		<nap></nap>
+		<tol></tol>
+		<ig></ig>
+	</idopont>
+	<helyszin></helyszin>
+	<oktato></oktato>
+	<szak></szak>
+	
+	<ora id="" tipus="">
+	</ora>
+	<targy></targy>
+	<idopont>
+		<nap></nap>
+		<tol></tol>
+		<ig></ig>
+	</idopont>
+	<helyszin></helyszin>
+	<oktato></oktato>
+	<szak></szak>
+	
+	<ora id="" tipus="">
+	</ora>
+	<targy></targy>
+	<idopont>
+		<nap></nap>
+		<tol></tol>
+		<ig></ig>
+	</idopont>
+	<helyszin></helyszin>
+	<oktato></oktato>
+	<szak></szak>
+	
+	<ora id="" tipus="">
+	</ora>
+	<targy></targy>
+	<idopont>
+		<nap></nap>
+		<tol></tol>
+		<ig></ig>
+	</idopont>
+	<helyszin></helyszin>
+	<oktato></oktato>
+	<szak></szak>
+</orarend>
