@@ -1,0 +1,37 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://www.w3schools.com"
+xmlns="https://www.w3schools.com"
+elementFormDefault="qualified">
+
+	<xs:element name="iskola">
+
+		<xs:complexType>
+			<xs:sequence>
+			
+				<xs:element name="tanar" type="tanartype"/>
+				
+				<xs:complexType name="tanartype">
+					<xs:attribute name="kod" type="xs:integer"/>
+					<xs:sequence>
+						<xs:element name="nev" type="xs:string"/>
+						<xs:element name="szak" type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+				
+				<xs:element name="tantargy" type="tantargytype"/>
+				
+				<xs:complexType name="tantargytype">
+					<xs:attribute name="kod" type="xs:integer"/>
+					<xs:attribute name="oktato" type="xs:string"/>
+					<xs:sequence>
+						<xs:element name="tnev" type="xs:string"/>
+						<xs:element name="osztaly" type="xs:string"/>
+					</xs:sequence>
+				</xs:complexType>
+				
+			</xs:sequence>
+		</xs:complexType>
+
+	</xs:element>
+
+</xs:schema>

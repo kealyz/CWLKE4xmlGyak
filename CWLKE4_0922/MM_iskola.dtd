@@ -1,0 +1,10 @@
+<!DOCTYPE iskola
+[
+<!ELEMENT iskola (tanar,tantaryg)>
+<!ELEMENT tanar (nev,szak)>
+	<!ELEMENT nev (#PCDATA)>
+	<!ELEMENT szak (#PCDATA)>
+<!ELEMENT tantargy (tnev,osztaly)>
+	<!ELEMENT tnev (#PCDATA)>
+	<!ELEMENT osztaly (#PCDATA)>
+]>
