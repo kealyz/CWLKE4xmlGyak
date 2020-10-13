@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fo
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="ERtoXSD.xsd">
+  <A a1="">
+    <B></B>
+    <C></C>
+  </A>
+  <B b1="" />
+  <C c1="" />
+  <AC ac1="" ac2="" />
+</fo>
