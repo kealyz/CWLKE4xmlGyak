@@ -19,6 +19,10 @@
 				</xs:complexType>
 			</xs:element>
 			
+			<xs:element name="C" maxOccurs="unbounded">
+				<xs:complexType mixed="true">
+					<xs:attribute name="c1" type="xs:int"/>
+				</xs:complexType>
 			</xs:element>
 			
 			<xs:element name="AC">
