@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="orarendCWLKE4.xsl"?>
+<orarend>
+	<ora id="1" tipus="a">
+		<targy>Elsotargy</targy>
+		<idopont>
+			<nap>Hetfo</nap>
+			<tol>1</tol>
+			<ig>2</ig>
+		</idopont>
+		<helyszin>Egyetem</helyszin>
+		<oktato>Oktato1</oktato>
+		<szak>Szak1</szak>
+	</ora>
+	
+	<ora id="2" tipus="a">
+		<targy>masodiktargy</targy>
+		<idopont>
+			<nap>Kedd</nap>
+			<tol>2</tol>
+			<ig>4</ig>
+		</idopont>
+		<helyszin>Egyetem</helyszin>
+		<oktato>Oktato2</oktato>
+		<szak>Szak2</szak>
+	</ora>
+	
+	<ora id="3" tipus="b">
+		<targy>Harmadiktargy</targy>
+		<idopont>
+			<nap>Szerda</nap>
+			<tol>12</tol>
+			<ig>14</ig>
+		</idopont>
+		<helyszin>Info</helyszin>
+		<oktato>Oktato1</oktato>
+		<szak>Szak1</szak>
+	</ora>
+	
+	<ora id="4" tipus="c">
+		<targy>Negyediktargy</targy>
+		<idopont>
+			<nap>Csüt</nap>
+			<tol>10</tol>
+			<ig>13</ig>
+		</idopont>
+		<helyszin>Egyetem</helyszin>
+		<oktato>Oktato3</oktato>
+		<szak>Szak3</szak>
+	</ora>
+</orarend>
