@@ -1,0 +1,64 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="adatbazis">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="gyogyszertar">
+                    <xs:complexType>
+                        <xs:sequence>
+							<xs:element name="nev" type="xs:string"></xs:element>
+                            <xs:element name="cim">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="telepules" type="xs:string"></xs:element>
+                                        <xs:element name="iranyitoszam" type="xs:integer"></xs:element>
+                                        <xs:element name="utca" type="xs:string"></xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:integer"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="beszallito">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="elerhetoseg" type="xs:integer"></xs:element>
+                            <xs:element name="nev" type="xs:string"></xs:element>
+                            <xs:element name="cim" type="xs:string"></xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:integer"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="gyogyszer">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="kod" type="xs:integer"></xs:element>
+                            <xs:element name="nev" type="xs:string"></xs:element>
+                            <xs:element name="darabszam" type="xs:integer"></xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:integer"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="gyogyszeresz">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nev" type="xs:string"></xs:element>
+                            <xs:element name="elerhetoseg" type="xs:integer"></xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:integer"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="beszallit">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="darab" type="xs:integer"></xs:element>
+                            <xs:element name="gyogyszerkod" type="xs:integer"></xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="bszid" type="xs:integer"></xs:attribute>
+                        <xs:attribute name="gysztid" type="xs:integer"></xs:attribute>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

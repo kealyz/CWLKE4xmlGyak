@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<adatbazis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="GyogyszertarCWLKE4.xsd">
+	<gyogyszertar id="1">
+		<nev>Szent Mókus Gyógyszertár</nev>
+		<cim>
+			<telepules>Miskolc</telepules>
+			<iranyitoszam>3530</iranyitoszam>
+			<utca>Városháztér 2</utca>
+		</cim>
+	</gyogyszertar>
+	
+	<beszallito id="1">
+		<elerhetoseg>06307070700</elerhetoseg>
+		<nev>A beszállító</nev>
+		<cim>3610 Gyöngyös, Patakpart 1</cim>
+	</beszallito>
+	
+	<beszallito id="2">
+		<elerhetoseg>06308080800</elerhetoseg>
+		<nev>B beszállító</nev>
+		<cim>3410 Határújfalu, István u. 7</cim>
+	</beszallito>
+	
+	<gyogyszer id="1">
+		<kod>124145244</kod>
+		<nev>Antineptunoxid</nev>
+		<darabszam>12</darabszam>
+	</gyogyszer>
+
+	<gyogyszer id="2">
+		<kod>54565845</kod>
+		<nev>Vanaláírástonocid</nev>
+		<darabszam>21</darabszam>
+	</gyogyszer>
+	
+	<gyogyszeresz id="1">
+		<nev>Dr. Gyógyszerész Béla</nev>
+		<elerhetoseg>06205556667</elerhetoseg>
+	</gyogyszeresz>
+	
+	<gyogyszeresz id="2">
+		<nev>Dr. Gyógyszerész András</nev>
+		<elerhetoseg>06205556654</elerhetoseg>
+	</gyogyszeresz>
+	
+	<beszallit bszid="1" gysztid="1">
+		<darab>12</darab>
+		<gyogyszerkod>823852856</gyogyszerkod>
+	</beszallit>
+	
+	<beszallit bszid="2" gysztid="1">
+		<darab>4</darab>
+		<gyogyszerkod>464354861</gyogyszerkod>
+	</beszallit>
+</adatbazis>
