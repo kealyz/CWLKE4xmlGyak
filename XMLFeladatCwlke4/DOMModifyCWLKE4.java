@@ -42,6 +42,7 @@ public class DOMModifyCWLKE4 {
 		}
 	}
 	
+	//Beolvassa az ID-t
 	public static String ReadId() {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Gyogyszertar Id: ");
@@ -49,6 +50,7 @@ public class DOMModifyCWLKE4 {
 		return id;
 	}
 	
+	//Kiírja az update-t
 	public static void xmlFileIras(Document doc) throws TransformerException {
         TransformerFactory transformerFactory = TransformerFactory.newInstance();
         Transformer transformer = transformerFactory.newTransformer();
@@ -57,6 +59,7 @@ public class DOMModifyCWLKE4 {
         transformer.transform(source, result);
 	}
 	
+	//Beolvassuk az gyógyszeretár id-jét majd az ahhoz tartozó új értéket és meghívja az írás metódust
 	public static void gyogyszertarNevmodositas(Document doc) throws TransformerException {
 		
 		System.out.println("Melyik gyógyszertár nevét írjuk át?");

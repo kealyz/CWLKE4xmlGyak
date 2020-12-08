@@ -27,6 +27,8 @@ public class DOMReadCWLKE4 {
 			System.out.println("Gyökér elem :" + doc.getDocumentElement().getNodeName());
 			System.out.println("----------------------------");
 			
+			
+			//Gyógyszertárak kiíratása
 			NodeList nList = doc.getElementsByTagName("gyogyszertar");
 			for (int i = 0; i < nList.getLength(); i++) {
 				Node nNode = nList.item(i);
@@ -41,6 +43,7 @@ public class DOMReadCWLKE4 {
 				}
 			}
 			
+			//A gyógyszerek kiírása
 			nList = doc.getElementsByTagName("gyogyszer");
 			for (int i = 0; i < nList.getLength(); i++) {
 				Node nNode = nList.item(i);
@@ -53,6 +56,7 @@ public class DOMReadCWLKE4 {
 				}
 			}
 			
+			//Kiíratja a gyógyszerészeket
 			nList = doc.getElementsByTagName("gyogyszeresz");
 			for (int i = 0; i < nList.getLength(); i++) {
 				Node nNode = nList.item(i);
@@ -65,6 +69,7 @@ public class DOMReadCWLKE4 {
 				}
 			}
 
+			//Beszállítók kiíratása
 			nList = doc.getElementsByTagName("beszallito");
 			for (int i = 0; i < nList.getLength(); i++) {
 				Node nNode = nList.item(i);
@@ -78,6 +83,7 @@ public class DOMReadCWLKE4 {
 				}
 			}
 			
+			//A beszállít N:M kapcsolat kiíratása
 			nList = doc.getElementsByTagName("beszallit");
 			for (int i = 0; i < nList.getLength(); i++) {
 				Node nNode = nList.item(i);
